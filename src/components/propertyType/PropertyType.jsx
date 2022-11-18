@@ -10,46 +10,46 @@ const PropertyType = () => {
             <div className="cityImage">
                 <Link to="/">
                     <div className="cityImg">
-                        <img src="./assets/images/ho.jpg" alt="" />
+                        <img src="./assets/images/ho.jpg" alt="Hotels" />
                     </div>
                     <h4 className='cityImgTitle'>Hotels</h4>
-                    <span className='cityImgProperties'>320 properties</span>
+                    <span className='cityImgProperties'>250014 properties</span>
                 </Link>
             </div>
             <div className="cityImage">
                 <Link to="/">
                     <div className="cityImg">
-                        <img src="./assets/images/ap.jpg" alt="" />
+                        <img src="./assets/images/ap.jpg" alt="Appartments" />
                     </div>
                     <h4 className='cityImgTitle'>Appartments</h4>
-                    <span className='cityImgProperties'>2120 properties</span>
+                    <span className='cityImgProperties'>120142 properties</span>
                 </Link>
             </div>
             <div className="cityImage">
                 <Link to="/">
                     <div className="cityImg">
-                        <img src="./assets/images/re.jpg" alt="" />
+                        <img src="./assets/images/re.jpg" alt="Resorts" />
                     </div>
                     <h4 className='cityImgTitle'>Resorts</h4>
-                    <span className='cityImgProperties'>4 properties</span>
+                    <span className='cityImgProperties'>85410 properties</span>
                 </Link>
             </div>
             <div className="cityImage">
                 <Link to="/">
                     <div className="cityImg">
-                        <img src="./assets/images/vi.jpg" alt="" />
+                        <img src="./assets/images/vi.jpg" alt="Villas" />
                     </div>
                     <h4 className='cityImgTitle'>Villas</h4>
-                    <span className='cityImgProperties'>62 properties</span>
+                    <span className='cityImgProperties'>24120 properties</span>
                 </Link>   
             </div>
             <div className="cityImage">
                 <Link>
                     <div className="cityImg">
-                        <img src="./assets/images/ca.jpg" alt="" />
+                        <img src="./assets/images/ca.jpg" alt="Cabins" />
                     </div>
                     <h4 className='cityImgTitle'>Cabins</h4>
-                    <span className='cityImgProperties'>1340 properties</span>
+                    <span className='cityImgProperties'>54140 properties</span>
                 </Link>
             </div>
         </div>
