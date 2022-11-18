@@ -1,57 +1,40 @@
 import React from 'react'
-import './propertytype.css'
 import { Link } from 'react-router-dom'
+import useFetch from '../../hooks/useFetch';
+import './propertytype.css'
 
 const PropertyType = () => {
+
+    const {data, loading, error} = useFetch("api/hotels/bytype");
+    //console.log(data);
+
+    const images = [
+        "./assets/images/ho.jpg",
+        "./assets/images/ap.jpg",
+        "./assets/images/re.jpg",
+        "./assets/images/vi.jpg",
+        "./assets/images/ca.jpg"
+    ];
+
   return (
     <div className='ptypeContainer'>
-        <h2 className='ptypeTitle'>Browse by Property Type</h2>
+        <h2 className="ptypeTitle">Browse by property type</h2>
         <div className="cityImages">
-            <div className="cityImage">
-                <Link to="/">
-                    <div className="cityImg">
-                        <img src="./assets/images/ho.jpg" alt="Hotels" />
+            { loading ? (<h2>Loading...</h2>) : (<>
+                
+                {data && images.map((img, i) => (
+                    <div className="cityImage" key={i}>
+                        <Link to="/">
+                            <div className="cityImg">
+                                <img src={img} alt="Hotels" />
+                            </div>
+                            <h4 className='cityImgTitle'>{data[i]?.type}</h4>
+                            <span className='cityImgProperties'>{data[i]?.count} properties</span>
+                        </Link>
                     </div>
-                    <h4 className='cityImgTitle'>Hotels</h4>
-                    <span className='cityImgProperties'>250014 properties</span>
-                </Link>
-            </div>
-            <div className="cityImage">
-                <Link to="/">
-                    <div className="cityImg">
-                        <img src="./assets/images/ap.jpg" alt="Appartments" />
-                    </div>
-                    <h4 className='cityImgTitle'>Appartments</h4>
-                    <span className='cityImgProperties'>120142 properties</span>
-                </Link>
-            </div>
-            <div className="cityImage">
-                <Link to="/">
-                    <div className="cityImg">
-                        <img src="./assets/images/re.jpg" alt="Resorts" />
-                    </div>
-                    <h4 className='cityImgTitle'>Resorts</h4>
-                    <span className='cityImgProperties'>85410 properties</span>
-                </Link>
-            </div>
-            <div className="cityImage">
-                <Link to="/">
-                    <div className="cityImg">
-                        <img src="./assets/images/vi.jpg" alt="Villas" />
-                    </div>
-                    <h4 className='cityImgTitle'>Villas</h4>
-                    <span className='cityImgProperties'>24120 properties</span>
-                </Link>   
-            </div>
-            <div className="cityImage">
-                <Link>
-                    <div className="cityImg">
-                        <img src="./assets/images/ca.jpg" alt="Cabins" />
-                    </div>
-                    <h4 className='cityImgTitle'>Cabins</h4>
-                    <span className='cityImgProperties'>54140 properties</span>
-                </Link>
-            </div>
+                ))}
+                
+            </>)}
         </div>
     </div>
   )
