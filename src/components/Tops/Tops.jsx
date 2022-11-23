@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 
 const Tops = () => {
 
+  
+
   return (
     <>
       <Carousel infiniteLoop={true} autoPlay={true} showStatus={false} transitionTime={3000} interval={3000} showArrows={false} showIndicators={false}>
