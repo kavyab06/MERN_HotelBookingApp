@@ -1,12 +1,12 @@
 import React from 'react'
 import City from '../../components/city/City'
-// import Header from '../../components/header/Header'
-import { Header } from '../../components/header/Header'
+import Header from '../../components/header/Header'
 import PropertyType from '../../components/propertyType/PropertyType'
 import Tops from '../../components/Tops/Tops'
+import Footer from '../../components/footer/Footer'
 import './home.css'
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <Header />
@@ -14,9 +14,10 @@ const home = () => {
         <City />
         <PropertyType />
         <Tops />
+        <Footer />
       </div>
     </div>
   )
 }
 
-export default home
+export default Home
