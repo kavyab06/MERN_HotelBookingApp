@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
       <div className="footerRow">
           <div className="footerCol">
-              <p className="copyrights">&copy; 2022. All Rights Reserved.</p>
+              <p className="copyrights">&copy; 2022. All Rights Reserved. Powered By Miljan Peric</p>
           </div>
       </div>
     </div>
