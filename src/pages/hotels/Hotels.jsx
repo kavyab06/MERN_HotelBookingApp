@@ -6,6 +6,7 @@ import ItemHotels from '../../components/itemHotels/ItemHotels'
 import { format } from 'date-fns'
 import { DateRange } from 'react-date-range'
 import { useLocation } from 'react-router-dom'
+import useFetch from '../../hooks/useFetch'
 import '../../components/search/search.css'
 import '../../components/listHotels/listhotels.css'
 
@@ -18,6 +19,13 @@ const Hotels = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined)
     const [max, setMax] = useState(undefined)
+
+    const {data, loading, error, reFetch} = useFetch(`api/hotels?city=${destination}&min=${min || 0}&max=${max || 9999}`);
+    //console.log(data);
+
+    const handleClick = () => {
+      reFetch();
+    }
 
   return (
     <div>
