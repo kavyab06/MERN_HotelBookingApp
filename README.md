@@ -2,6 +2,12 @@
 This is a full stack development project created using MERN stack.
 It is a part of college project.
 
+### Contributor-
+Kavya Bansal: 16010120003
+Dikshita Chalke: 16010120006
+Omkar Kubal: 16010120025
+K.J. Somaiya College of Engineering
+
 ### Title-
 Hotel Booking System
 
@@ -63,3 +69,6 @@ Benefits of online booking system-
 2.	Personalised suggestions
 3.	Adding different payment methods
 4.	Newsletter
+
+### Acknowledgement-
+We would like to thank Prof. Swapnil Pawar, Prof. Vaibhav Vasani and Prof. Gopal Sonune for their help throughout the project life cycle.
