@@ -1,15 +1,8 @@
-### Readme File-
 This is a full stack development project created using MERN stack.
 It is a part of college project.
 
-### Contributor-
-Kavya Bansal: 16010120003
-Dikshita Chalke: 16010120006
-Omkar Kubal: 16010120025
-K.J. Somaiya College of Engineering
-
 ### Title-
-Hotel Booking System
+Hotel Booking System using MERN stack.
 
 ### Problem Statement-
 A hotel booking system manages information about rooms, reservations, customers, and customer billing. A customer can make reservations, change, or cancel reservations through the hotel website. When a customer makes reservations, he/she needs to check if a room the customer want to reserve is available. If a room is available, the customer enters his/her information to the system and receives a confirmation number from the web site.
@@ -37,33 +30,6 @@ Benefits of online booking system-
 ### Architectural Diagram-
 ![WhatsApp Image 2022-11-28 at 14 31 04](https://user-images.githubusercontent.com/84176722/204239582-f036d757-efe2-4cba-83aa-6f24a75855b7.jpg)
 
-### Requirements-
-•	"@fortawesome/free-regular-svg-icons": "^6.2.1"
-•	"@fortawesome/free-solid-svg-icons": "^6.2.1"
-•	"@fortawesome/react-fontawesome": "^0.2.0"
-•	"@testing-library/jest-dom": "^5.16.5"
-•	"@testing-library/react": "^13.4.0"
-•	"@testing-library/user-event": "^13.5.0"
-•	"axios": "^1.1.3"
-•	"date-fns": "^2.29.3"
-•	"react": "^18.2.0"
-•	"react-date-range": "^1.4.0"
-•	"react-dom": "^18.2.0"
-•	"react-grid-gallery": "^1.0.0"
-•	"react-photo-album": "^1.16.1"
-•	"react-responsive-carousel": "^3.2.23"
-•	"react-router-dom": "^6.4.3"
-•	"react-scripts": "5.0.1"
-•	"web-vitals": "^2.1.4"
-•	"bcryptjs": "^2.4.3"
-•	"cookie-parser": "^1.4.6"
-•	"cors": "^2.8.5"
-•	"dotenv": "^16.0.3"
-•	"express": "^4.18.2"
-•	"jsonwebtoken": "^8.5.1"
-•	"mongoose": "^6.7.3"
-•	"nodemon": "^2.0.20"
-
 ### Future Scope-
 1.	Registration of users
 2.	Personalised suggestions
@@ -72,3 +38,9 @@ Benefits of online booking system-
 
 ### Acknowledgement-
 We would like to thank Prof. Swapnil Pawar, Prof. Vaibhav Vasani and Prof. Gopal Sonune for their help throughout the project life cycle.
+
+### Contributors-
+Kavya Bansal: 16010120003
+Dikshita Chalke: 16010120006
+Omkar Kubal: 16010120025
+K.J. Somaiya College of Engineering
