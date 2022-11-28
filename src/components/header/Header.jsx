@@ -59,7 +59,7 @@ const Header = ({type}) => {
     <div className='h-container'>
         <div className="h-row">
             <div className="h-col">
-                <Link to="/">Miljan Peric</Link>
+                <Link to="/">Hotel Booking App</Link>
             </div>
             <div className="h-col">
                 {user ? 
