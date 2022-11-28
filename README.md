@@ -25,6 +25,12 @@ Benefits of online booking system-
 4.	Booking permitted only if there are rooms available
 5.	Displaying the reservation status
 
+### Class Diagram-
+![WhatsApp Image 2022-11-28 at 14 23 57](https://user-images.githubusercontent.com/84176722/204239390-8fcb98ab-2294-45ac-9481-09a92987210c.jpg)
+
+### Architectural Diagram-
+![WhatsApp Image 2022-11-28 at 14 31 04](https://user-images.githubusercontent.com/84176722/204239582-f036d757-efe2-4cba-83aa-6f24a75855b7.jpg)
+
 ### Requirements-
 •	"@fortawesome/free-regular-svg-icons": "^6.2.1"
 •	"@fortawesome/free-solid-svg-icons": "^6.2.1"
