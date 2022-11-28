@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Title-
+Hotel Booking System
+
+### Problem Statement-
+A hotel booking system manages information about rooms, reservations, customers, and customer billing. A customer can make reservations, change, or cancel reservations through the hotel website. When a customer makes reservations, he/she needs to check if a room the customer want to reserve is available. If a room is available, the customer enters his/her information to the system and receives a confirmation number from the web site.
+
+### Motivation-
+A reservation system, though it might sound like a tool used at the reception desk, is actually an online piece of software that enables guests to book their own stays online and pay for them using a secure portal.
+That way, they can complete the transaction quickly, efficiently from the comfort of their own office or living room.
+
+Benefits of online booking system-
+•	Less work for the front office
+•	Reduced chances of losing or mucking up a reservation
+•	Easily gathered data
+•	Simpler administration of rewards
