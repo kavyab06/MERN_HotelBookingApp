@@ -85,3 +85,10 @@ Benefits of online booking system-
 •	Reduced chances of losing or mucking up a reservation
 •	Easily gathered data
 •	Simpler administration of rewards
+
+### Features-
+Listing the hotels based on different criteria selected by the user.
+User able to select a hotel and book a room.
+Booking permitted only if there are rooms available
+Displaying the reservation status.
+Registration of users.
