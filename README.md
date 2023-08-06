@@ -30,6 +30,13 @@ Benefits of online booking system-
 ### Architectural Diagram-
 ![WhatsApp Image 2022-11-28 at 14 31 04](https://user-images.githubusercontent.com/84176722/204239582-f036d757-efe2-4cba-83aa-6f24a75855b7.jpg)
 
+### Website Demo-
+![image](https://github.com/kavyab06/MERN_HotelBookingApp/assets/84176722/0f6f07d0-fd50-41cd-944d-7e6f283583da)
+![image](https://github.com/kavyab06/MERN_HotelBookingApp/assets/84176722/b453cf2d-082b-4290-b060-945fb960471d)
+![image](https://github.com/kavyab06/MERN_HotelBookingApp/assets/84176722/7e419785-8a8f-4cf6-b3ab-6dc79f8343f0)
+![image](https://github.com/kavyab06/MERN_HotelBookingApp/assets/84176722/f611dbe6-88f4-4810-96e4-c1763ef927ba)
+![image](https://github.com/kavyab06/MERN_HotelBookingApp/assets/84176722/2aa63ed4-303a-4e08-85f6-59134d7089db)
+
 ### Future Scope-
 1.	Registration of users
 2.	Personalised suggestions
